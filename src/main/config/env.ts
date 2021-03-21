@@ -1,0 +1,13 @@
+export const {
+  PORT = 3000,
+  API_VERSION = 'v1',
+  NODE_ENV = 'development',
+  DB_HOST = '',
+  DB_PORT = 1433,
+  DB_USERNAME = '',
+  DB_PASSWORD = '',
+  DB_DATABASE = '',
+  DB_SCHEMA = '',
+  DB_SYNCHRONIZE = false,
+  DB_LOGGING = false
+} = process.env
