@@ -54,7 +54,8 @@
     "module-alias": "^2.2.2",
     "mssql": "^6.3.1",
     "reflect-metadata": "^0.1.10",
-    "sequelize": "^6.5.1"
+    "sequelize": "^6.5.1",
+    "typeorm": "^0.2.31"
   },
   "_moduleAliases": {
     "@": "dist",

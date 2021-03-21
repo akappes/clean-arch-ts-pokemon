@@ -8,13 +8,13 @@
     "sourceMap": true,
     "outDir": "./dist",
     "esModuleInterop": true,
-    "rootDirs": ["src", "__tests__"],
-    "baseUrl": "src",
+    "baseUrl": ".",
     "paths": {
-      "@/tests/*": ["../__tests__/*"],
-      "@/*": ["*"]
+      "@fixtures/*": ["./__fixtures__/*"],
+      "@tests/*": ["./__tests__/*"],
+      "@/*": ["./src/*"]
     }
   },
-  "include": ["src", "__tests__"],
+  "include": ["src", "__tests__", "__fixtures__"],
   "exclude": ["node_modules"]
 }
